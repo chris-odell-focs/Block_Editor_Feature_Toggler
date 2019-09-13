@@ -3,7 +3,7 @@
  * @package FOFOGutenToggler
  */
 /*
-Plugin Name: Foxdell Folio Gutenberg(Block Editor) feature toggler
+Plugin Name: Foxdell Folio Block Editor feature toggler
 Plugin URI: 
 Description: Provide a set of hooks which will allow features gutenberg features to be turned off
 Version: 1.0.0
@@ -12,6 +12,11 @@ Author URI:
 License: GPLv2 or later
 Text Domain: fofogutentog
 */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 /*
     To remove the feature toggler settings from the dashboard completely
